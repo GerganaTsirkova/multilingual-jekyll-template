@@ -1,0 +1,46 @@
+.site-info-section {
+    max-width: 80%;
+    margin: 0 auto;    
+
+    div.wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .text-container {
+      flex-direction: column;
+    }
+  
+    .gallery-image img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    h2 {
+      padding-bottom: 4rem;
+    }
+  
+    div:nth-child(2) {
+      max-width: 50%;
+      text-align: left;
+    }
+  }
+
+  @media screen and (max-width: 860px) {
+    .site-info-section .wrapper {
+        flex-direction: column;
+
+        .text-container{
+          width: 100%;
+        }
+        
+        & div:nth-child(2) {
+          max-width: 100%;
+          
+      }
+    }
+    
+
+    
+  }

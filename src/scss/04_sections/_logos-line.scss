@@ -1,0 +1,35 @@
+.logos-line {
+  ul {
+    max-width: 80%;
+    padding-top: 1rem;
+    margin: 0 auto;
+    justify-content: space-between;
+
+    li {
+      flex: 0 0 15%;
+      padding-bottom: 1rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    li:not(:last-child) {
+      padding-right: 0;
+    }
+
+    img {
+      width: auto;
+      max-height: 3.2rem;
+    }
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .logos-line {
+    ul {
+      li {
+        flex: 0 0 30%;
+        
+      }
+    }
+  }
+}
