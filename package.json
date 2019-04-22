@@ -1,23 +1,31 @@
 {
-  "name": "my_first_gulp_project",
+  "name": "hyde",
   "version": "1.0.0",
-  "description": "awesome project",
-  "main": "index.js",
+  "description": "Jekyll theme by the best HTML & CSS Course",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Maya",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "^9.4.3",
-    "browser-sync": "^2.26.3",
-    "cssnano": "^4.1.8",
-    "gulp": "^4.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.4"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdankov/su-fe2-hyde.git"
   },
-  "dependencies": {
-    "canvas": "^2.4.1"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdankov/su-fe2-hyde/issues"
+  },
+  "homepage": "https://github.com/kdankov/su-fe2-hyde#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "child_process": "^1.0.2",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-exec": "^3.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
   }
 }
