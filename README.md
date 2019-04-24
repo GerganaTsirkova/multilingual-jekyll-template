@@ -1,3 +1,3 @@
-Website Slavi Slavov Avto-renovatsia
+Multilingual Jekyll Website
 
 https://gerganatsirkova.github.io/Slavi/

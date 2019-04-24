@@ -1,14 +1,40 @@
 title: Avto renovatsia
-email: g_cirkova@mail.bg
-description: template
 destination: docs
 # baseurl: "/Slavi"
 baseurl: ""
 url: ""
-twitter_username: GerganaTsirkova
-github_username: GerganaTsirkova
-exclude: [_assets, node_modules, Gemfile, Gemfile.lock, gulpfile.js, package.json, package-lock.json, README.md,docs]
-# Build settings
 markdown: kramdown
 plugins:
-- jekyll-feed
+    - jekyll-feed
+sass:
+    style: compressed
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         author: "Gergana Tsirkova"
+         layout: page
+         lang: bg
+         base-url: "/"
+    -
+     scope:
+         path: en
+     values:
+         lang: en
+         base-url: "/en/"
+exclude: [_assets, node_modules, Gemfile, Gemfile.lock, gulpfile.js, package.json, package-lock.json, README.md,docs]
+langs-value:
+    bg: ""
+    en: en
+t:
+    home:
+        bg: "НАЧАЛО"
+        en: "HOME"
+    services:
+        bg: "УСЛУГИ"
+        en: "SERVICES"
+    contact:
+        bg: "КОНТАКТИ"
+        en: "CONTACTS"
+
