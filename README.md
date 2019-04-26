@@ -1,4 +1,4 @@
-Multilingual Jekyll Website
+Multilingual Jekyll Website template
 
 I learned it from: https://simpleit.rocks/ruby/jekyll/tutorials/multilingual-jekyll-without-plugins/
 
