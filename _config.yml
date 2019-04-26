@@ -1,7 +1,6 @@
-title: Avto renovatsia
+title: Template
 destination: docs
-# baseurl: "/Slavi"
-baseurl: ""
+baseurl: "/Jekyll-multilingual-template"
 url: ""
 markdown: kramdown
 plugins:
