@@ -9,32 +9,17 @@ plugins:
 sass:
     style: compressed
 defaults:
-    -
-     scope:
-         path: ""
-     values:
-         author: "Gergana Tsirkova"
-         layout: page
-         lang: bg
-         base-url: "/"
-    -
-     scope:
-         path: en
-     values:
-         lang: en
-         base-url: "/en/"
+  #languages
+  -
+    scope:
+      path: ""
+    values:
+      lang: "bg"
+      layout: default
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
 exclude: [_assets, node_modules, Gemfile, Gemfile.lock, gulpfile.js, package.json, package-lock.json, README.md,docs]
-langs-value:
-    bg: ""
-    en: en
-t:
-    home:
-        bg: "НАЧАЛО"
-        en: "HOME"
-    services:
-        bg: "УСЛУГИ"
-        en: "SERVICES"
-    contact:
-        bg: "КОНТАКТИ"
-        en: "CONTACTS"
 
