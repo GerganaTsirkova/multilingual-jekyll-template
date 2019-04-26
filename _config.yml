@@ -1,6 +1,6 @@
 title: Template
 destination: docs
-baseurl: "/Jekyll-multilingual-template"
+baseurl: "/jekyll-multilingual-template"
 url: ""
 markdown: kramdown
 plugins:
