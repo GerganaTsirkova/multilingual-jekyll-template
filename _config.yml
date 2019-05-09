@@ -5,6 +5,7 @@ url: ""
 markdown: kramdown
 plugins:
     - jekyll-feed
+    - jekyll-sitemap
 sass:
     style: compressed
 defaults:
